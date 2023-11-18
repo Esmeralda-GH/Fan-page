@@ -1,0 +1,69 @@
+/*Comenatiors*/
+
+*{
+    font-family: 'Pixelify Sans', sans-serif; /*cambiar la tipografia*/
+}
+h1{
+    background-color: rgb(31, 97, 219);
+    width: 300px;
+    padding: 10px; /*expacio interno*/
+    border: 2px ; /*borde o tope*/
+    margin: 20px; /*espacio interno*/
+    text-align: center;
+
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*selector de tipo etiqueta HTML*/
+body{
+    background-color: rgb(124, 209, 209);
+    text-align: center;
+}
+h3{
+    color: white;
+}
+p{
+    font-weight: bold; /*negritas*/
+    text-transform: uppercase; /*mayusculas*/
+    text-align: center;
+}
+
+ul li{
+    text-decoration: none;
+
+}
+img{
+    width: 400px;
+    height: 250px;
+    border-radius: 50%; /*bordes redondeados*/
+} 
+/*Selector de tipo CLASE, reutilización*/
+.tarjeta{
+    background-color: rgb(223, 213, 199);
+    border: 3px solid black;
+    margin: 30px;
+}
+/*selector tipo ID, unico*/
+#titulo-historia{
+    color: rgb(101, 101, 218);
+}
+#titulo-apariciones{
+    color: rgb(124, 209, 209);
+}
+#titulo-arcos{
+    color: salmon;
+}
+#titulo-songs{
+    color: aquamarine;
+}
+#titulo-form{
+    color: rosybrown;
+}
+
+#historia{
+    border: 3px;
+} 
